@@ -12,7 +12,7 @@ import mstar from '../src/assets/mstar.png'
 
 
 
- function Free (){
+ function Freee (){
     return(
         <div>
             <div className='main-parent'>
@@ -155,4 +155,4 @@ import mstar from '../src/assets/mstar.png'
         </div>
     )
  }
- export default Free;
+ export default Freee;

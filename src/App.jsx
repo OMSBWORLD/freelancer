@@ -1,13 +1,14 @@
 import Reat from 'react'
 import './App.css'
-import Free from './free'
+import Freee from './Freee'
 
 
 function App() {
 
   return (
    <div>
-      <Free/>
+      <Freee/>
+
    </div>
   )
 }
