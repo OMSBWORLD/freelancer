@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../src/Free.css'
 import logo from '../src/assets/Payme.png'
 import girl from '../src/assets/girl.png'
@@ -11,24 +11,37 @@ import man from '../src/assets/man.png'
 import mstar from '../src/assets/mstar.png'
 import {AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
 import logo2 from '../src/assets/logo2.png'
-
+import {GoThreeBars} from 'react-icons/go'
+import {FaRegTimesCircle} from 'react-icons/fa'
 
 
 
 
  function Freee (){
+    const [mobile, setMobile]= useState(false)
+    const handleMobile=()=>{
+        setMobile(!mobile)
+    }
     return(
         <div>
             <div className='main-parent'>
                 <div className='main'>
                     <div className='nav-parent'>
                         <div className='nav'>
+                            <div className='n-one'><img src={logo}alt=""/></div>
+                            <div className= {mobile ? 'mobile-link' : 'n-two'}>
                             <div className='nav-one'>
-                                <img src={logo}alt="" />
                                 <a href="">Home</a><a href="">About</a><a href="">Testimonials</a><a href="">Contact</a> 
                             </div>
                             <div className='nav-two'>
                                 <a href="">Sign in</a><a href=""><button>Sign up</button></a>
+                            </div>
+                            </div>
+                            <div className='menu-bars'>
+                                {mobile? <FaRegTimesCircle className='times' onClick={handleMobile}/>
+                                :
+                                <GoThreeBars className='bars' onClick={handleMobile}/>
+                                }
                             </div>
                         </div>
                     </div>
