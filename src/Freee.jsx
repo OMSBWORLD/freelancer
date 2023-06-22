@@ -13,7 +13,8 @@ import {AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlinePlus, AiOutlineMinus} 
 import logo2 from '../src/assets/logo2.png'
 import {GoThreeBars} from 'react-icons/go'
 import {FaRegTimesCircle} from 'react-icons/fa'
-
+import v from '../src/assets/v.png'
+import vb from '../src/assets/vb.png'
 
 
 
@@ -67,7 +68,7 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                     </div>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '50px',fontFamily: 'Gilroy-Thin'}} >Best </h3><h3 style={{color: '#25A4AD', fontSize: '50px',  fontFamily: 'Gilroy-SemiBold'}} >Services</h3></div>
+                                <div><h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}} >Best </h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}} >Services</h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -103,7 +104,7 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                     <div className='sp'>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '50px',fontFamily: 'Gilroy-Thin'}}>Our</h3><h3 style={{color: '#25A4AD', fontSize: '50px',  fontFamily: 'Gilroy-SemiBold'}}>Features</h3></div>
+                                <div><h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}}>Our</h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}}>Features</h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -147,7 +148,7 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                     </div>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '38px',fontFamily: 'Gilroy-Thin'}}>What </h3><h3 style={{color: '#25A4AD', fontSize: '38px',  fontFamily: 'Gilroy-SemiBold'}}>Clients </h3><h3 style={{color: '#313131', fontSize: '38px',fontFamily: 'Gilroy-Thin'}}>Say </h3></div>
+                                <div><h3 style={{color: '#313131', fontSize: '30px',fontFamily: 'Gilroy-Thin'}}>What </h3><h3 style={{color: '#25A4AD', fontSize: '30px',  fontFamily: 'Gilroy-SemiBold'}}>Clients </h3><h3 style={{color: '#313131', fontSize: '30px',fontFamily: 'Gilroy-Thin'}}>Say </h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -176,17 +177,17 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                     </div>
                     <div className='nine-parent'>
                         <div className='nine'>
-                            <div className='nine-one'> <h3 style={{color: '#313131', fontSize: '50px',fontFamily: 'Gilroy-Thin'}}>Our </h3><h3 style={{color: '#25A4AD', fontSize: '50px',  fontFamily: 'Gilroy-SemiBold'}}> Pricing Plan</h3></div>
+                            <div className='nine-one'> <h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}}>Our </h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}}> Pricing Plan</h3></div>
                             <div className='nine-two'>
                                 <div className='nine-two-one'>
                                     <h3>For Starter</h3>
                                     <h1>$59</h1>
                                     <div>
-                                        <div> <p>Feedback Categorization</p></div>
-                                        <div><p>Features prioritization</p></div>
-                                        <div><p>Real-time collaboration</p></div>
-                                        <div><p>Feedback loop notifications</p></div>
-                                        <div><p>Essential dev tools integrations</p></div>
+                                        <div> <p> <img src={v} alt="" /> Feedback Categorization</p></div>
+                                        <div><p> <img src={v} alt="" /> Features prioritization</p></div>
+                                        <div><p> <img src={v} alt="" /> Real-time collaboration</p></div>
+                                        <div><p> <img src={v} alt="" /> Feedback loop notifications</p></div>
+                                        <div><p> <img src={v} alt="" /> Essential dev tools integrations</p></div>
                                     </div>
                                     <button>Request Demo</button>
                                 </div>
@@ -194,11 +195,11 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                                     <h3>For Teams</h3>
                                     <h1>$99</h1>
                                     <div>
-                                        <div>  <p>Feedback Categorization</p></div>
-                                        <div> <p>Features prioritization</p></div>
-                                        <div> <p>Real-time collaboration</p></div>
-                                        <div><p>Feedback loop notifications</p></div>
-                                        <div> <p>Essential dev tools integrations</p></div>
+                                        <div>  <p> <img src={vb} alt="" /> Feedback Categorization</p></div>
+                                        <div> <p> <img src={vb} alt="" />  Features prioritization</p></div>
+                                        <div> <p> <img src={vb} alt="" />  Real-time collaboration</p></div>
+                                        <div><p> <img src={vb} alt="" />  Feedback loop notifications</p></div>
+                                        <div> <p> <img src={vb} alt="" /> Essential dev tools integrations</p></div>
                                     </div>
                                     <button>Request Demo</button>
                                 </div>
@@ -206,9 +207,9 @@ import {FaRegTimesCircle} from 'react-icons/fa'
                                     <h3>For Company</h3>
                                     <h1>Custom</h1>
                                     <div>
-                                        <div><p>Feedback Categorization</p></div>
-                                        <div><p>Feedback loop notifications</p></div>
-                                        <div><p>Essential dev tools integrations</p></div>
+                                        <div><p> <img src={v} alt="" /> Feedback Categorization</p></div>
+                                        <div><p> <img src={v} alt="" /> Feedback loop notifications</p></div>
+                                        <div><p> <img src={v} alt="" /> Essential dev tools integrations</p></div>
                                     </div>
                                     <button>Contact Us</button>
                                 </div>
