@@ -15,6 +15,8 @@ import {GoThreeBars} from 'react-icons/go'
 import {FaRegTimesCircle} from 'react-icons/fa'
 import v from '../src/assets/v.png'
 import vb from '../src/assets/vb.png'
+import cards from '../src/assets/cards.png'
+
 
 
 
@@ -74,7 +76,8 @@ import vb from '../src/assets/vb.png'
                     </div>
                     <div className='four-parent'>
                         <div className='four'>
-                            <div className='four-one'>
+                            <img src={cards} alt="" />
+                            {/* <div className='four-one'>
                                 <div className='four-one-one'>
                                         <h4 style={{color: '#ffffff',fontSize: '30px', width: '45%', textAlign: 'center'}}>Web Development</h4>
                                         <div className='img'><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /></div>
@@ -93,7 +96,7 @@ import vb from '../src/assets/vb.png'
                                         <h4 style={{color: '#ffffff',fontSize: '30px', width: '45%', textAlign: 'center'}}>SEO</h4>
                                         <div className='img'><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /><img src={star} alt="" /></div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className='five-parent'>
