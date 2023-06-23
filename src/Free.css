@@ -33,7 +33,7 @@ button{
 }
 .main-parent{
     width: 100%;
-    min-height: 730vh;
+    min-height: 680vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ button{
 }
 .main{
     width: 80%;
-    min-height: 680vh;
+    min-height: 600vh;
     background:#FFFFFF;
 }
 .nav-parent{
@@ -838,7 +838,7 @@ footer{
 @media screen and (max-width: 780px){
     .main-parent{
         width: 100%;
-        min-height: 730vh;
+        min-height: 850vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -846,7 +846,7 @@ footer{
     }
     .main{
         width: 85%;
-        min-height: 680vh;
+        min-height: 600vh;
         background:#FFFFFF;
     }
     .nav-parent{
