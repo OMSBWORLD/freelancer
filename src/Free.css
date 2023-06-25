@@ -1034,8 +1034,8 @@ footer{
         align-items: center;
     }
     .two img{
-        width: 60px;
-        height: 9px;
+        width: 55px;
+        height: 8px;
         color: #313131
     }
     .plan img{
@@ -1650,12 +1650,12 @@ footer{
         width: 60%;
     }
     .footer-three-one img{
-        width: 55px;
+        width: 53px;
     }
     .footer-three-one p{
         width: 100%;
         margin-top: 10px;
-        font-size: 9px;
+        font-size: 8px;
         font-family: 'Gilroy-Medium';
     }
     .footer-three-two{
@@ -1663,12 +1663,12 @@ footer{
     }
     .footer-three-two h5{
         font-family: 'Gilroy-Bold';
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer-three-two p{
         width: 100%;
         margin-top: 12px;
-        font-size: 9px;
+        font-size: 8px;
         font-family: 'Gilroy-Medium';
     }
     .footer-three-three{
@@ -1676,25 +1676,25 @@ footer{
     }
     .footer-three-three h5{
         font-family: 'Gilroy-Bold';
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer-three-three p{
         width: 100%;
         margin-top: 12px;
-        font-size: 9px;
+        font-size: 8px;
         font-family: 'Gilroy-Medium';
     }
     .footer-three-four{
-        width: 35%;
+        width: 37%;
     }
     .footer-three-four h5{
         font-family: 'Gilroy-Bold';
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer-three-four p{
         width: 100%;
         margin-top: 12px;
-        font-size: 9px;
+        font-size: 8px;
         font-family: 'Gilroy-Medium';
     }
     .footer-four{
