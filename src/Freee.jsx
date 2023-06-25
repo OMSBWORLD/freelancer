@@ -70,7 +70,7 @@ import cards from '../src/assets/cards.png'
                     </div>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}} >Best </h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}} >Services</h3></div>
+                                <div><h3 className='three-b'>Best </h3><h3 className='three-s' >Services</h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ import cards from '../src/assets/cards.png'
                     <div className='sp'>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}}>Our</h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}}>Features</h3></div>
+                                <div><h3 className='three-b'>Our</h3><h3 className='three-s'>Features</h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ import cards from '../src/assets/cards.png'
                     </div>
                     <div className='three-parent'>
                         <div className='three'>
-                                <div><h3 style={{color: '#313131', fontSize: '30px',fontFamily: 'Gilroy-Thin'}}>What </h3><h3 style={{color: '#25A4AD', fontSize: '30px',  fontFamily: 'Gilroy-SemiBold'}}>Clients </h3><h3 style={{color: '#313131', fontSize: '30px',fontFamily: 'Gilroy-Thin'}}>Say </h3></div>
+                                <div><h3 className='three-w'>What </h3><h3 className='three-c'>Clients </h3><h3 className='three-w'>Say </h3></div>
                                 <p>Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as.</p>
                         </div>
                     </div>
@@ -180,7 +180,7 @@ import cards from '../src/assets/cards.png'
                     </div>
                     <div className='nine-parent'>
                         <div className='nine'>
-                            <div className='nine-one'> <h3 style={{color: '#313131', fontSize: '40px',fontFamily: 'Gilroy-Thin'}}>Our </h3><h3 style={{color: '#25A4AD', fontSize: '40px',  fontFamily: 'Gilroy-SemiBold'}}> Pricing Plan</h3></div>
+                            <div className='nine-one'> <h3 className='three-b'>Our </h3><h3 className='three-s'> Pricing Plan</h3></div>
                             <div className='nine-two'>
                                 <div className='nine-two-one'>
                                     <h3>For Starter</h3>

@@ -221,6 +221,26 @@ a{
     justify-content: space-between;
     width: 30%;
 }
+.three-b{
+    color: #313131;
+    font-size: 50px;
+    font-family: Gilroy-Thin;
+}
+.three-s{
+    color: #25A4AD;
+    font-size: 50px;
+    font-family: Gilroy-SemiBold;
+}
+.three-w{
+    color: #313131;
+    font-size: 40px;
+    font-family: Gilroy-Thin;
+}
+.three-c{
+    color: #25A4AD;
+    font-size: 40px;
+    font-family: Gilroy-SemiBold;
+}
 
 .three p{
     width: 55%;
@@ -1044,7 +1064,26 @@ footer{
         width: 60%;
         max-width: 200px;
     }
-    
+    .three-b{
+        color: #313131;
+        font-size: 35px;
+        font-family: Gilroy-Thin;
+    }
+    .three-s{
+        color: #25A4AD;
+        font-size: 35px;
+        font-family: Gilroy-SemiBold;
+    }
+    .three-w{
+        color: #313131;
+        font-size: 25px;
+        font-family: Gilroy-Thin;
+    }
+    .three-c{
+        color: #25A4AD;
+        font-size: 25px;
+        font-family: Gilroy-SemiBold;
+    }
     .three p{
         width: 95%;
         text-align: center;
